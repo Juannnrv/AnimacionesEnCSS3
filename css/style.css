@@ -1,7 +1,13 @@
 body{
-    background-image: url("/img/Fondo.jpg");
+    background-image: url("storage/img/Fondo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.fondo{
+    position: absolute;
+    z-index: -3;
+    width: 100%;
 }
 .sol img{
     margin: 50px 0 0 400px ;
@@ -15,7 +21,7 @@ body{
 }
 
 .nube {
-    background-image: no-repeat url("/img/Nube.png");
+    background-image: no-repeat url("storage/img/Nube.png");
     position: absolute;
     right: 0;
     top: 4%;
@@ -54,7 +60,7 @@ body{
 
 
 .lluvia{
-    background: url("/img/Gotas.gif");
+    background: url("storage/img/Gotas.gif");
     width: 312px;
     height: 321px;
     position: fixed;
@@ -83,7 +89,7 @@ body{
 }
 
 .sol img {
-    /* background-image: url('/img/Sol.png'); */
+    /* background-image: url('storage/img/Sol.png'); */
     background-repeat: no-repeat;
     top: 0;
     right: 0;
@@ -112,7 +118,7 @@ body{
 }
 
 .flor img {
-    /* background: no-repeat url("/img/Flor.png"); */
+    /* background: no-repeat url("storage/img/Flor.png"); */
     width: 450px;
     height: 450px;
     position: fixed;
@@ -148,7 +154,7 @@ body{
 }
 
 #mensaje {
-    background: no-repeat url("/img/Mensaje.png");
+    background: no-repeat url("storage/img/Mensaje.png");
     width: 700px;
     height: 200px;
     position: fixed;
